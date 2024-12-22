@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "f": {
+      "item": "minecraft:flint"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " f ",
+    " | ",
+    " | "
+  ],
+  "result": {
+    "item": "retooled:flint_shovel"
+  },
+  "show_notification": true
+}

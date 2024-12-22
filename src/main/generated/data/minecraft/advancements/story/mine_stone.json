@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "has_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.mine_stone.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "retooled:flint_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.story.mine_stone.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_stone"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  },
+  "sends_telemetry_event": true
+}

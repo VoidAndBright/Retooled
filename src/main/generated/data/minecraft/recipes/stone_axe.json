@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "cc ",
+    "c| ",
+    " | "
+  ],
+  "result": {
+    "item": "retooled:copper_axe"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "r": {
+      "item": "minecraft:redstone_torch"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "c|c",
+    "crc",
+    "c|c"
+  ],
+  "result": {
+    "item": "minecraft:activator_rail"
+  },
+  "show_notification": true
+}

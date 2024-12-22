@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "f": {
+      "item": "minecraft:flint"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " f ",
+    " f ",
+    " | "
+  ],
+  "result": {
+    "item": "retooled:flint_sword"
+  },
+  "show_notification": true
+}
